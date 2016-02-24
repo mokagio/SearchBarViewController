@@ -10,6 +10,7 @@
 		3F85D3981C7DA3FE00128797 /* SearchBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F85D3971C7DA3FE00128797 /* SearchBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F85D3BA1C7DA5CF00128797 /* KeyboardAnimationSubscriber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F85D3B71C7DA5C100128797 /* KeyboardAnimationSubscriber.framework */; };
 		3F85D3BB1C7DA5DD00128797 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F85D3A81C7DA5B800128797 /* Cartography.framework */; };
+		3F85D3BD1C7DA5EE00128797 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85D3BC1C7DA5EE00128797 /* SearchBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		3F85D3991C7DA3FE00128797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F85D3A01C7DA5B800128797 /* Cartography.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cartography.xcodeproj; path = Carthage/Checkouts/Cartography/Cartography.xcodeproj; sourceTree = "<group>"; };
 		3F85D3AF1C7DA5C000128797 /* KeyboardAnimationSubscriber.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KeyboardAnimationSubscriber.xcodeproj; path = Carthage/Checkouts/KeyboardAnimationSubscriber/KeyboardAnimationSubscriber.xcodeproj; sourceTree = "<group>"; };
+		3F85D3BC1C7DA5EE00128797 /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				3F85D3971C7DA3FE00128797 /* SearchBarViewController.h */,
 				3F85D3991C7DA3FE00128797 /* Info.plist */,
+				3F85D3BC1C7DA5EE00128797 /* SearchBarViewController.swift */,
 			);
 			path = SearchBarViewController;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F85D3BD1C7DA5EE00128797 /* SearchBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

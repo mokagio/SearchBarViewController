@@ -8,12 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		3F85D3981C7DA3FE00128797 /* SearchBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F85D3971C7DA3FE00128797 /* SearchBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F85D3BA1C7DA5CF00128797 /* KeyboardAnimationSubscriber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F85D3B71C7DA5C100128797 /* KeyboardAnimationSubscriber.framework */; };
+		3F85D3BB1C7DA5DD00128797 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F85D3A81C7DA5B800128797 /* Cartography.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F85D3A71C7DA5B800128797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F85D3A01C7DA5B800128797 /* Cartography.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54C96A11195063CD000CDD27;
+			remoteInfo = "Cartography-iOS";
+		};
+		3F85D3A91C7DA5B800128797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F85D3A01C7DA5B800128797 /* Cartography.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54C96A1C195063CD000CDD27;
+			remoteInfo = "Cartography-iOS-Tests";
+		};
+		3F85D3AB1C7DA5B800128797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F85D3A01C7DA5B800128797 /* Cartography.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54F6A838195C20C100313D24;
+			remoteInfo = "Cartography-Mac";
+		};
+		3F85D3AD1C7DA5B800128797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F85D3A01C7DA5B800128797 /* Cartography.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54F6A842195C20C200313D24;
+			remoteInfo = "Cartography-Mac-Tests";
+		};
+		3F85D3B61C7DA5C100128797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F85D3AF1C7DA5C000128797 /* KeyboardAnimationSubscriber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FCD1F261C77154400001637;
+			remoteInfo = KeyboardAnimationSubscriber;
+		};
+		3F85D3B81C7DA5C100128797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F85D3AF1C7DA5C000128797 /* KeyboardAnimationSubscriber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FCD1F301C77154400001637;
+			remoteInfo = KeyboardAnimationSubscriberTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3F85D3941C7DA3FE00128797 /* SearchBarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SearchBarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F85D3971C7DA3FE00128797 /* SearchBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		3F85D3991C7DA3FE00128797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F85D3A01C7DA5B800128797 /* Cartography.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cartography.xcodeproj; path = Carthage/Checkouts/Cartography/Cartography.xcodeproj; sourceTree = "<group>"; };
+		3F85D3AF1C7DA5C000128797 /* KeyboardAnimationSubscriber.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KeyboardAnimationSubscriber.xcodeproj; path = Carthage/Checkouts/KeyboardAnimationSubscriber/KeyboardAnimationSubscriber.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F85D3BB1C7DA5DD00128797 /* Cartography.framework in Frameworks */,
+				3F85D3BA1C7DA5CF00128797 /* KeyboardAnimationSubscriber.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +81,7 @@
 		3F85D38A1C7DA3FE00128797 = {
 			isa = PBXGroup;
 			children = (
+				3F85D39F1C7DA5A900128797 /* Frameworks */,
 				3F85D3961C7DA3FE00128797 /* SearchBarViewController */,
 				3F85D3951C7DA3FE00128797 /* Products */,
 			);
@@ -53,6 +105,35 @@
 				3F85D3991C7DA3FE00128797 /* Info.plist */,
 			);
 			path = SearchBarViewController;
+			sourceTree = "<group>";
+		};
+		3F85D39F1C7DA5A900128797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F85D3A01C7DA5B800128797 /* Cartography.xcodeproj */,
+				3F85D3AF1C7DA5C000128797 /* KeyboardAnimationSubscriber.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F85D3A11C7DA5B800128797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F85D3A81C7DA5B800128797 /* Cartography.framework */,
+				3F85D3AA1C7DA5B800128797 /* Cartography-iOS-Tests.xctest */,
+				3F85D3AC1C7DA5B800128797 /* Cartography.framework */,
+				3F85D3AE1C7DA5B800128797 /* Cartography-Mac-Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F85D3B01C7DA5C000128797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F85D3B71C7DA5C100128797 /* KeyboardAnimationSubscriber.framework */,
+				3F85D3B91C7DA5C100128797 /* KeyboardAnimationSubscriberTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,12 +193,67 @@
 			mainGroup = 3F85D38A1C7DA3FE00128797;
 			productRefGroup = 3F85D3951C7DA3FE00128797 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3F85D3A11C7DA5B800128797 /* Products */;
+					ProjectRef = 3F85D3A01C7DA5B800128797 /* Cartography.xcodeproj */;
+				},
+				{
+					ProductGroup = 3F85D3B01C7DA5C000128797 /* Products */;
+					ProjectRef = 3F85D3AF1C7DA5C000128797 /* KeyboardAnimationSubscriber.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3F85D3931C7DA3FE00128797 /* SearchBarViewController */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3F85D3A81C7DA5B800128797 /* Cartography.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cartography.framework;
+			remoteRef = 3F85D3A71C7DA5B800128797 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F85D3AA1C7DA5B800128797 /* Cartography-iOS-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cartography-iOS-Tests.xctest";
+			remoteRef = 3F85D3A91C7DA5B800128797 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F85D3AC1C7DA5B800128797 /* Cartography.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cartography.framework;
+			remoteRef = 3F85D3AB1C7DA5B800128797 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F85D3AE1C7DA5B800128797 /* Cartography-Mac-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cartography-Mac-Tests.xctest";
+			remoteRef = 3F85D3AD1C7DA5B800128797 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F85D3B71C7DA5C100128797 /* KeyboardAnimationSubscriber.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KeyboardAnimationSubscriber.framework;
+			remoteRef = 3F85D3B61C7DA5C100128797 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F85D3B91C7DA5C100128797 /* KeyboardAnimationSubscriberTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KeyboardAnimationSubscriberTests.xctest;
+			remoteRef = 3F85D3B81C7DA5C100128797 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3F85D3921C7DA3FE00128797 /* Resources */ = {
@@ -279,6 +415,7 @@
 		3F85D39D1C7DA3FE00128797 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -289,12 +426,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mokagio.SearchBarViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3F85D39E1C7DA3FE00128797 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

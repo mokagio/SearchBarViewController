@@ -10,7 +10,7 @@ import UIKit
 import Cartography
 import KeyboardAnimationSubscriber
 
-class SearchBarViewController: UIViewController {
+public class SearchBarViewController: UIViewController {
 
 
     let searchBar = UISearchBar()
